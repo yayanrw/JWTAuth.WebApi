@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace JWTAuth.WebApi.Controllers
 {
-    [Route("api/employee")]
+    [Route("api/[controller]")]
     [ApiController]
     public class EmployeeController : ControllerBase
     {
